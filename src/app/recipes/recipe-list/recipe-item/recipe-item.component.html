@@ -1,0 +1,22 @@
+<a 
+    style="cursor: pointer; margin-bottom: 10px;"
+    [routerLink] = "[index]"
+    routerLinkActive = "active"
+    class="list-group-item clearfix">
+    <div class="pull-left">
+        <h4 class="list-group-item-heading" style="font-weight: bold;"> {{ ritem.name }} </h4>
+        <p class="list-group-item-text"> {{ ritem.description }} </p>
+    </div>
+    <span class="pull-right">
+        <img 
+            [src]="ritem.imagePath"
+            src="{{ ritem.imagePath }}"
+            alt="{{ ritem.name }}" 
+            class="img-responsive" 
+            style="max-height: 50px;">
+    </span>
+</a>
+
+<!-- <img 
+        [src]="r.imagePath"         -- use of Property binding preferred instead of string interpolation. why? idk
+        src="{{ r.imagePath }}"> -->

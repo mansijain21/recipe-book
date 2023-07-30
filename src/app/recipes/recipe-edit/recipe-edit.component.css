@@ -1,0 +1,15 @@
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched
+{
+    border: 1px solid red;
+}
+button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 18px;
+}
+img{
+    margin: 10px 0;
+}
